@@ -5,8 +5,8 @@ project "ImGui"
     cppdialect "C++17"
     staticruntime "on"
     
-	targetdir (outputdir)
-    objdir (outputintdir)
+	targetdir (vendor_output_dir)
+    objdir (vendor_output_int_dir)
 	
 	files
 	{
@@ -19,7 +19,8 @@ project "ImGui"
         "imstb_rectpack.h",
         "imstb_textedit.h",
         "imstb_truetype.h",
-        "imgui_demo.cpp"
+        "imgui_demo.cpp",
+		"imgui_tables.cpp"
     }
     
 	filter "system:windows"
