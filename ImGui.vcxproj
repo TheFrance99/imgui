@@ -135,56 +135,56 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\x86\Debug\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\x86\Debug\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\x64\Debug\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\x64\Debug\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\ARM\Debug\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\ARM\Debug\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\x86\Release\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\x86\Release\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\x64\Release\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\x64\Release\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\ARM\Release\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\ARM\Release\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribution|Win32'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\x86\Distribution\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\x86\Distribution\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\x64\Distribution\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\x64\Distribution\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribution|ARM'">
-    <OutDir>..\..\..\Output\Force\Vendor\ImGui\</OutDir>
-    <IntDir>..\..\..\Output - Intermediate\Force\Vendor\ImGui\ARM\Distribution\</IntDir>
+    <OutDir>..\..\..\Output\Vendor\ImGui\</OutDir>
+    <IntDir>..\..\..\Output - Intermediate\Vendor\ImGui\ARM\Distribution\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
@@ -194,7 +194,7 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -208,7 +208,7 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -223,7 +223,7 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -241,7 +241,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -259,7 +259,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -277,7 +277,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -296,7 +296,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -314,7 +314,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -332,7 +332,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <MinimalRebuild>false</MinimalRebuild>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
